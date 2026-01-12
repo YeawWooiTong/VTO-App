@@ -1,0 +1,59 @@
+{
+    "scene": "Full Glam",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality",
+                "smooth": "0 1"
+            },
+            "makeup_foundation": {
+                "color": "0.95 0.70 0.54",
+                "finish": "radiance",
+                "coverage": "high"
+            },
+            "makeup_concealer": {
+                "color": "0.94 0.73 0.66",
+                "finish": "natural",
+                "coverage": "mid"
+            },
+            "makeup_contour": {
+                "color": "0.7 0.5 0.4",
+                "finish": "normal",
+                "coverage": "mid"
+            },
+            "makeup_highlighter": {
+                "color": "0.9 0.80 0.83",
+                "finish": "shimmer",
+                "coverage": "mid"
+            },
+            "makeup_blush": {
+                "color": "0.88 0.65 0.75",
+                "finish": "shimmer",
+                "coverage": "mid"
+            },
+            "makeup_eyeshadow": {
+                "color": "0.6 0.3 0.4",
+                "finish": "shimmer",
+                "coverage": "mid"
+            },
+            "makeup_eyeliner": {
+                "color": "0.0 0.0 0.0",
+                "finish": "matte_liquid",
+                "coverage": "high"
+            },
+            "makeup_lipstick": {
+                "color": "0.8 0.2 0.3",
+                "finish": "matte_dry",
+                "coverage": "high"
+            },
+            "eyes_whitening": {
+                "strength": 0.3
+            },
+            "teeth_whitening": {
+                "strength": 0.4
+            }
+        }
+    ]
+}

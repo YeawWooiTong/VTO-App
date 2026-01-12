@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_try_on">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_try_on"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.tryon.TryOnFragment"
+        android:label="@string/title_tryon"
+        tools:layout="@layout/fragment_try_on_placeholder">
+        <action
+            android:id="@+id/action_navigation_tryon_to_virtualTryOnFragment"
+            app:destination="@id/virtualTryOnFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_wardrobe"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.wardrobe.WardrobeFragment"
+        android:label="@string/title_wardrobe"
+        tools:layout="@layout/fragment_wardrobe">
+        <action
+            android:id="@+id/action_wardrobe_to_try_on"
+            app:destination="@id/navigation_try_on" />
+        <action
+            android:id="@+id/action_wardrobe_to_create_outfit"
+            app:destination="@id/navigation_style" />
+        <action
+            android:id="@+id/action_navigation_wardrobe_to_clothingItemDetailsFragment"
+            app:destination="@id/clothingItemDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_style"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.style.StyleFragment"
+        android:label="@string/style_heading"
+        tools:layout="@layout/fragment_style">
+        <action
+            android:id="@+id/action_style_to_try_on"
+            app:destination="@id/navigation_try_on" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.events.EventsFragment"
+        android:label="@string/title_events"
+        tools:layout="@layout/fragment_events">
+        <action
+            android:id="@+id/action_navigation_events_to_eventDetailsFragment"
+            app:destination="@id/eventDetailsFragment" />
+        <action
+            android:id="@+id/action_navigation_events_to_addEventFragment"
+            app:destination="@id/addEventFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eventDetailsFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.events.EventDetailsFragment"
+        android:label="Event Details"
+        tools:layout="@layout/fragment_event_details">
+        <argument
+            android:name="eventId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEventFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.events.AddEventFragment"
+        android:label="Add Event"
+        tools:layout="@layout/fragment_add_event" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.favorites.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_navigation_favorites_to_clothingItemDetailsFragment"
+            app:destination="@id/clothingItemDetailsFragment" />
+        <action
+            android:id="@+id/action_navigation_favorites_to_outfitDetailsFragment"
+            app:destination="@id/outfitDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/clothingItemDetailsFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.wardrobe.ClothingItemDetailsFragment"
+        android:label="Clothing Item Details"
+        tools:layout="@layout/fragment_clothing_item_details">
+        <argument
+            android:name="itemId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/outfitDetailsFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.outfits.OutfitDetailsFragment"
+        android:label="Outfit Details"
+        tools:layout="@layout/fragment_outfit_details">
+        <argument
+            android:name="outfitId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_outfits"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.outfits.OutfitsFragment"
+        android:label="Outfits"
+        tools:layout="@layout/fragment_outfits">
+        <action
+            android:id="@+id/action_navigation_outfits_to_createOutfitFragment"
+            app:destination="@id/createOutfitFragment" />
+        <action
+            android:id="@+id/action_navigation_outfits_to_outfitDetailsFragment"
+            app:destination="@id/outfitDetailsFragment" />
+        <action
+            android:id="@+id/action_navigation_outfits_to_makeupStorageFragment"
+            app:destination="@id/makeupStorageFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createOutfitFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.outfits.CreateOutfitFragment"
+        android:label="Create Outfit"
+        tools:layout="@layout/fragment_create_outfit" />
+
+    <fragment
+        android:id="@+id/virtualTryOnFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.tryon.VirtualTryOnFragment"
+        android:label="Virtual Try-On" />
+
+    <fragment
+        android:id="@+id/makeupStorageFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.makeup.MakeupStorageFragment"
+        android:label="Makeup Storage">
+        <action
+            android:id="@+id/action_makeupStorageFragment_to_makeupDetailFragment"
+            app:destination="@id/makeupDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/makeupDetailFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.makeup.MakeupDetailFragment"
+        android:label="Makeup Details">
+        <argument
+            android:name="makeupLook"
+            app:argType="com.TOTOMOFYP.VTOAPP.ui.makeup.MakeupLook" />
+    </fragment>
+
+    <!-- Update global action to point to our entry point -->
+    <action
+        android:id="@+id/action_global_tryOnFragment"
+        app:destination="@id/navigation_try_on" />
+</navigation> 

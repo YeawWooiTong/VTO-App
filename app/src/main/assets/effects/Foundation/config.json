@@ -1,0 +1,23 @@
+{
+    "scene": "Foundation",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality",
+                "smooth": "0 1"
+            },
+            "makeup_foundation": {
+                "color": "0.85 0.67 0.55",
+                "finish": "natural",
+                "coverage": 0.4
+            },
+            "makeup_concealer": {
+                "color": "0.85 0.67 0.55",
+                "finish": "natural",
+                "coverage": 0.4
+            }
+        }
+    ]
+}

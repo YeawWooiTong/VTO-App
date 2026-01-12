@@ -1,0 +1,17 @@
+{
+    "scene": "Highlighter",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality"
+            },
+            "makeup_highlighter": {
+                "color": "0.9 0.80 0.83",
+                "finish": "shimmer",
+                "coverage": "mid"
+            }
+        }
+    ]
+}

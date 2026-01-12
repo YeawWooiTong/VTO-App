@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.8.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.8.1)" variant="all" version="8.8.1">
+
+    <issue
+        id="ScopedStorage"
+        message="READ_EXTERNAL_STORAGE is deprecated (and is not granted) when targeting Android 13+. If you need to query or interact with MediaStore or media files on the shared storage, you should instead use one or more new storage permissions: `READ_MEDIA_IMAGES`, `READ_MEDIA_VIDEO` or `READ_MEDIA_AUDIO`."
+        errorLine1="    &lt;uses-permission android:name=&quot;android.permission.READ_EXTERNAL_STORAGE&quot; />"
+        errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="10"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="RedundantLabel"
+        message="Redundant label can be removed"
+        errorLine1="            android:label=&quot;@string/app_name&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="30"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RedundantLabel"
+        message="Redundant label can be removed"
+        errorLine1="            android:label=&quot;@string/app_name&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="43"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.application than 8.8.1 is available: 8.9.1. (There is also a newer version of 8.8.𝑥 available, if upgrading to 8.9.1 is difficult: 8.8.2)"
+        errorLine1="agp = &quot;8.8.1&quot;"
+        errorLine2="      ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="2"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.application than 8.8.1 is available: 8.9.1. (There is also a newer version of 8.8.𝑥 available, if upgrading to 8.9.1 is difficult: 8.8.2)"
+        errorLine1="agp = &quot;8.8.1&quot;"
+        errorLine2="      ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="2"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.application than 8.8.1 is available: 8.9.1. (There is also a newer version of 8.8.𝑥 available, if upgrading to 8.9.1 is difficult: 8.8.2)"
+        errorLine1="agp = &quot;8.8.1&quot;"
+        errorLine2="      ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="2"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.firebase:firebase-bom than 33.11.0 is available: 33.12.0"
+        errorLine1="    implementation(platform(&quot;com.google.firebase:firebase-bom:33.11.0&quot;))"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="66"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.compose.material3:material3 than 1.3.1 is available: 1.3.2"
+        errorLine1="    implementation(&quot;androidx.compose.material3:material3:1.3.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="86"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.7 is available: 2.8.9"
+        errorLine1="    implementation(&quot;androidx.navigation:navigation-fragment-ktx:2.7.7&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="95"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-ui-ktx than 2.7.7 is available: 2.8.9"
+        errorLine1="    implementation(&quot;androidx.navigation:navigation-ui-ktx:2.7.7&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="96"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0"
+        errorLine1="    implementation(&quot;androidx.appcompat:appcompat:1.6.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="99"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1"
+        errorLine1="    implementation(&quot;androidx.constraintlayout:constraintlayout:2.1.4&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="100"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0"
+        errorLine1="    implementation(&quot;com.google.android.material:material:1.11.0&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="101"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-camera2 than 1.3.1 is available: 1.4.2"
+        errorLine1="    implementation(&quot;androidx.camera:camera-camera2:1.3.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="104"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-lifecycle than 1.3.1 is available: 1.4.2"
+        errorLine1="    implementation(&quot;androidx.camera:camera-lifecycle:1.3.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="105"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-view than 1.3.1 is available: 1.4.2"
+        errorLine1="    implementation(&quot;androidx.camera:camera-view:1.3.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="106"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.15.0 is available: 1.16.0"
+        errorLine1="coreKtx = &quot;1.15.0&quot;"
+        errorLine2="          ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="4"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.15.0 is available: 1.16.0"
+        errorLine1="coreKtx = &quot;1.15.0&quot;"
+        errorLine2="          ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="4"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.15.0 is available: 1.16.0"
+        errorLine1="coreKtx = &quot;1.15.0&quot;"
+        errorLine2="          ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="4"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.04.00"
+        errorLine1="composeBom = &quot;2024.04.01&quot;"
+        errorLine2="             ~~~~~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="10"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.04.00"
+        errorLine1="composeBom = &quot;2024.04.01&quot;"
+        errorLine2="             ~~~~~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="10"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.compose:compose-bom than 2024.04.01 is available: 2025.04.00"
+        errorLine1="composeBom = &quot;2024.04.01&quot;"
+        errorLine2="             ~~~~~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/VTO/gradle/libs.versions.toml"
+            line="10"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="LockedOrientationActivity"
+        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
+        errorLine1="            android:screenOrientation=&quot;portrait&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="31"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="LockedOrientationActivity"
+        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices"
+        errorLine1="            android:screenOrientation=&quot;portrait&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="44"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UsingMaterialAndMaterial3Libraries"
+        message="Using a material import while also using the material3 library"
+        errorLine1="import androidx.compose.material.*"
+        errorLine2="       ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/auth/LoginScreen.kt"
+            line="16"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="UsingMaterialAndMaterial3Libraries"
+        message="Using a material import while also using the material3 library"
+        errorLine1="import androidx.compose.material.*"
+        errorLine2="       ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/auth/RegisterScreen.kt"
+            line="10"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="UsingMaterialAndMaterial3Libraries"
+        message="Using a material import while also using the material3 library"
+        errorLine1="import androidx.compose.material.*"
+        errorLine2="       ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/auth/UserInfoScreen1.kt"
+            line="6"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="UsingMaterialAndMaterial3Libraries"
+        message="Using a material import while also using the material3 library"
+        errorLine1="import androidx.compose.material.*"
+        errorLine2="       ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/auth/UserInfoScreen2.kt"
+            line="5"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="UsingMaterialAndMaterial3Libraries"
+        message="Using a material import while also using the material3 library"
+        errorLine1="import androidx.compose.material.*"
+        errorLine2="       ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/auth/UserInfoScreen3.kt"
+            line="8"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="UsingMaterialAndMaterial3Libraries"
+        message="Using a material import while also using the material3 library"
+        errorLine1="import androidx.compose.material.*"
+        errorLine2="       ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/auth/UserInfoScreen4.kt"
+            line="7"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="DiscouragedApi"
+        message="Should not restrict activity to fixed orientation. This may not be suitable for different form factors, causing the app to be letterboxed."
+        errorLine1="            android:screenOrientation=&quot;portrait&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="31"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="DiscouragedApi"
+        message="Should not restrict activity to fixed orientation. This may not be suitable for different form factors, causing the app to be letterboxed."
+        errorLine1="            android:screenOrientation=&quot;portrait&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="44"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="PermissionImpliesUnsupportedChromeOsHardware"
+        message="Permission exists without corresponding hardware `&lt;uses-feature android:name=&quot;android.hardware.camera&quot; required=&quot;false&quot;>` tag"
+        errorLine1="    &lt;uses-permission android:name=&quot;android.permission.CAMERA&quot; />"
+        errorLine2="     ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="6"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="        notifyDataSetChanged()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/wardrobe/ClothingItemsAdapter.kt"
+            line="28"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="        notifyDataSetChanged()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/style/adapter/StyleOccasionAdapter.kt"
+            line="16"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseCompoundDrawables"
+        message="This tag and its children can be replaced by one `&lt;TextView/>` and a compound drawable"
+        errorLine1="    &lt;LinearLayout"
+        errorLine2="     ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_quick_action.xml"
+            line="12"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="AutoboxingStateCreation"
+        message="Prefer `mutableIntStateOf` instead of `mutableStateOf`"
+        errorLine1="    var selectedTabIndex by remember { mutableStateOf(0) }"
+        errorLine2="                                       ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/favorites/FavoritesScreen.kt"
+            line="61"
+            column="40"/>
+    </issue>
+
+    <issue
+        id="AutoboxingStateCreation"
+        message="Prefer `mutableIntStateOf` instead of `mutableStateOf`"
+        errorLine1="    var selectedTabIndex by remember { mutableStateOf(0) }"
+        errorLine2="                                       ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/outfits/OutfitsScreen.kt"
+            line="60"
+            column="40"/>
+    </issue>
+
+    <issue
+        id="AutoboxingStateCreation"
+        message="Prefer `mutableIntStateOf` instead of `mutableStateOf`"
+        errorLine1="    var selectedTabIndex by remember { mutableStateOf(0) }"
+        errorLine2="                                       ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/wardrobe/WardrobeScreen.kt"
+            line="59"
+            column="40"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.VTO`)"
+        errorLine1="    android:background=&quot;@color/background&quot;>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/background` with a theme that also paints a background (inferred theme is `@style/Theme.VTO`)"
+        errorLine1="    android:background=&quot;@color/background&quot;>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_style.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.success` appears to be unused"
+        errorLine1="    &lt;color name=&quot;success&quot;>#FF4CAF50&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="23"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.warning` appears to be unused"
+        errorLine1="    &lt;color name=&quot;warning&quot;>#FFFFCA28&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="24"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.error` appears to be unused"
+        errorLine1="    &lt;color name=&quot;error&quot;>#FFE53935&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="25"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.black` appears to be unused"
+        errorLine1="    &lt;color name=&quot;black&quot;>#FF000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="28"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.transparent` appears to be unused"
+        errorLine1="    &lt;color name=&quot;transparent&quot;>#00000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="30"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.colorPrimary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;colorPrimary&quot;>#FF3B5999&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="34"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.error_red` appears to be unused"
+        errorLine1="    &lt;color name=&quot;error_red&quot;>#FFE53935&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="35"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.success_green` appears to be unused"
+        errorLine1="    &lt;color name=&quot;success_green&quot;>#FF4CAF50&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="36"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.light_gray` appears to be unused"
+        errorLine1="    &lt;color name=&quot;light_gray&quot;>#FFEEEEEE&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="37"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.dark_gray` appears to be unused"
+        errorLine1="    &lt;color name=&quot;dark_gray&quot;>#FF555555&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="38"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.spacing_tiny` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;spacing_tiny&quot;>4dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.spacing_small` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;spacing_small&quot;>8dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.spacing_medium` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;spacing_medium&quot;>16dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.spacing_large` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;spacing_large&quot;>24dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.spacing_xlarge` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;spacing_xlarge&quot;>32dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.text_size_small` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;text_size_small&quot;>12sp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="11"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.text_size_medium` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;text_size_medium&quot;>14sp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="12"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.text_size_large` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;text_size_large&quot;>16sp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="13"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.text_size_xlarge` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;text_size_xlarge&quot;>20sp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="14"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.text_size_xxlarge` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;text_size_xxlarge&quot;>24sp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="15"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.button_height` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;button_height&quot;>48dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="18"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.card_corner_radius` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;card_corner_radius&quot;>12dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="19"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.card_elevation` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;card_elevation&quot;>4dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="20"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.dimen.profile_image_size` appears to be unused"
+        errorLine1="    &lt;dimen name=&quot;profile_image_size&quot;>96dp&lt;/dimen>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/dimens.xml"
+            line="27"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_try_on` appears to be unused"
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable/ic_try_on.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.item_next_event` appears to be unused"
+        errorLine1="&lt;androidx.constraintlayout.widget.ConstraintLayout"
+        errorLine2="^">
+        <location
+            file="src/main/res/layout/item_next_event.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.item_try_on_result` appears to be unused"
+        errorLine1="&lt;com.google.android.material.card.MaterialCardView"
+        errorLine2="^">
+        <location
+            file="src/main/res/layout/item_try_on_result.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.item_wardrobe` appears to be unused"
+        errorLine1="&lt;com.google.android.material.card.MaterialCardView xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/layout/item_wardrobe.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.layout.layout` appears to be unused"
+        errorLine1="&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/layout/layout.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_heading` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_heading&quot;>Virtual Try On&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="12"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_full_body` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_full_body&quot;>Full Body&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="14"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_face` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_face&quot;>Face&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="15"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_upper_body` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_upper_body&quot;>Upper Body&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="16"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_lower_body` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_lower_body&quot;>Lower Body&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="17"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_accessories` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_accessories&quot;>Accessories&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="18"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_select_items` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_select_items&quot;>Select Items&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="19"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_take_photo` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_take_photo&quot;>Take Photo&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="20"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_save_look` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_save_look&quot;>Save Look&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="21"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_heading` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_heading&quot;>My Wardrobe&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="24"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_clothes` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_clothes&quot;>Clothes&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="25"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_accessories` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_accessories&quot;>Accessories&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="26"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_makeup` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_makeup&quot;>Makeup&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="27"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_add_item` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_add_item&quot;>Add Item&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="28"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_create_outfit` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_create_outfit&quot;>Create Outfit&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="29"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_favorites` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_favorites&quot;>Favorites&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="30"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_recent` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_recent&quot;>Recent&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="31"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_all_items` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_all_items&quot;>All Items&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="32"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_empty` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_empty&quot;>Your wardrobe is empty&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="33"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe_add_first_item` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe_add_first_item&quot;>Add your first item&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="34"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.style_seasonal` appears to be unused"
+        errorLine1="    &lt;string name=&quot;style_seasonal&quot;>Seasonal&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="40"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.save` appears to be unused"
+        errorLine1="    &lt;string name=&quot;save&quot;>Save&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="57"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.cancel` appears to be unused"
+        errorLine1="    &lt;string name=&quot;cancel&quot;>Cancel&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="58"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.delete` appears to be unused"
+        errorLine1="    &lt;string name=&quot;delete&quot;>Delete&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="59"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.search` appears to be unused"
+        errorLine1="    &lt;string name=&quot;search&quot;>Search&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="61"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.loading` appears to be unused"
+        errorLine1="    &lt;string name=&quot;loading&quot;>Loading...&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="62"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.retry` appears to be unused"
+        errorLine1="    &lt;string name=&quot;retry&quot;>Retry&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="63"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.error_occurred` appears to be unused"
+        errorLine1="    &lt;string name=&quot;error_occurred&quot;>An error occurred&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="64"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.wardrobe` appears to be unused"
+        errorLine1="    &lt;string name=&quot;wardrobe&quot;>Wardrobe&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="75"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on&quot;>Try On&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="76"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.clothing_image_description` appears to be unused"
+        errorLine1="    &lt;string name=&quot;clothing_image_description&quot;>Clothing image&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="77"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.processing_image` appears to be unused"
+        errorLine1="    &lt;string name=&quot;processing_image&quot;>Processing image&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="78"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_result` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_result&quot;>Try On Result&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="79"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.try_on_result_image` appears to be unused"
+        errorLine1="    &lt;string name=&quot;try_on_result_image&quot;>Try on result image&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="80"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.back` appears to be unused"
+        errorLine1="    &lt;string name=&quot;back&quot;>Back&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="81"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.share` appears to be unused"
+        errorLine1="    &lt;string name=&quot;share&quot;>Share&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="82"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        errorLine1="    &lt;string name=&quot;loading&quot;>Loading...&lt;/string>"
+        errorLine2="                           ~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="62"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/ic_facebook.png` in densityless folder">
+        <location
+            file="src/main/res/drawable/ic_facebook.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/ic_google.png` in densityless folder">
+        <location
+            file="src/main/res/drawable/ic_google.png"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(platform(&quot;com.google.firebase:firebase-bom:33.11.0&quot;))"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="66"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;com.google.firebase:firebase-auth-ktx&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="68"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;com.google.firebase:firebase-firestore-ktx&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="71"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation (&quot;com.firebaseui:firebase-ui-auth:8.0.2&quot;)"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="74"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;com.google.firebase:firebase-storage-ktx:21.0.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="77"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;com.google.android.gms:play-services-auth:21.3.0&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="79"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;com.facebook.android:facebook-login:18.0.2&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="81"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.compose.ui:ui:1.7.8&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="84"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.compose.material:material:1.7.8&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="85"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.compose.material3:material3:1.3.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="86"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.compose.ui:ui-tooling-preview:1.7.8&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="87"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.navigation:navigation-compose:2.8.9&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="88"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.lifecycle:lifecycle-runtime-compose:2.8.7&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="89"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.compose.material:material-icons-extended:1.7.8&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="90"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.compose.foundation:foundation-layout:1.7.8&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="91"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.compose.runtime:runtime-livedata:1.7.8&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="92"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.navigation:navigation-fragment-ktx:2.7.7&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="95"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.navigation:navigation-ui-ktx:2.7.7&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="96"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.appcompat:appcompat:1.6.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="99"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.constraintlayout:constraintlayout:2.1.4&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="100"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;com.google.android.material:material:1.11.0&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="101"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.camera:camera-camera2:1.3.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="104"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.camera:camera-lifecycle:1.3.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="105"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use version catalog instead"
+        errorLine1="    implementation(&quot;androidx.camera:camera-view:1.3.1&quot;)"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="106"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;com.google.android.material.floatingactionbutton.FloatingActionButton"
+        errorLine2="     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/custom_bottom_navigation.xml"
+            line="19"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                &lt;ImageView"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="29"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                &lt;ImageView"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="36"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                    &lt;ImageView"
+        errorLine2="                     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_style.xml"
+            line="69"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="                    &lt;ImageView"
+        errorLine2="                     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_try_on.xml"
+            line="59"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_wardrobe_category.xml"
+            line="23"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_clothing.xml"
+            line="16"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_clothing.xml"
+            line="33"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_event.xml"
+            line="76"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_next_event.xml"
+            line="41"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_quick_action.xml"
+            line="19"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_recent_activity.xml"
+            line="16"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_recommendation.xml"
+            line="16"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_style_occasion.xml"
+            line="15"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_try_on_result.xml"
+            line="16"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_wardrobe.xml"
+            line="15"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageButton"
+        errorLine2="         ~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_wardrobe.xml"
+            line="30"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="        &lt;ImageView"
+        errorLine2="         ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_weather_day.xml"
+            line="36"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        message="Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
+        errorLine1="            &lt;AutoCompleteTextView"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="92"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="LabelFor"
+        message="Missing accessibility label: provide either a view with an `android:labelFor` that references this view or provide an `android:hint`"
+        errorLine1="            &lt;AutoCompleteTextView"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="109"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="        binding.heightValue.text = &quot;175 cm&quot;"
+        errorLine2="                                    ~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/profile/ProfileFragment.kt"
+            line="74"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="        binding.weightValue.text = &quot;68 kg&quot;"
+        errorLine2="                                    ~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/profile/ProfileFragment.kt"
+            line="75"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="        binding.sizesValue.text = &quot;M / 32 / 9&quot;"
+        errorLine2="                                   ~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/profile/ProfileFragment.kt"
+            line="76"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="        binding.styleRecommendationTitle.text = &quot;Casual Elegance&quot;"
+        errorLine2="                                                 ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/style/StyleFragment.kt"
+            line="44"
+            column="50"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="        binding.styleRecommendationSubtitle.text = &quot;Perfect for your body type and preferences&quot;"
+        errorLine2="                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/style/StyleFragment.kt"
+            line="45"
+            column="53"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        errorLine1="                temperature.text = &quot;${weatherDay.temperature}°C&quot;"
+        errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/TOTOMOFYP/VTOAPP/ui/events/WeatherForecastAdapter.kt"
+            line="33"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Item Name&quot;, should use `@string` resource"
+        errorLine1="            android:hint=&quot;Item Name&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="53"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Brand&quot;, should use `@string` resource"
+        errorLine1="            android:hint=&quot;Brand&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="71"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Category&quot;, should use `@string` resource"
+        errorLine1="            android:hint=&quot;Category&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="89"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Color&quot;, should use `@string` resource"
+        errorLine1="            android:hint=&quot;Color&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="106"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Description (Optional)&quot;, should use `@string` resource"
+        errorLine1="            android:hint=&quot;Description (Optional)&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/dialog_add_clothing_item.xml"
+            line="123"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Events&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Events&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_events.xml"
+            line="26"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Upcoming Events&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Upcoming Events&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_events.xml"
+            line="69"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Weather Forecast&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Weather Forecast&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_events.xml"
+            line="94"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Add Event&quot;, should use `@string` resource"
+        errorLine1="        android:contentDescription=&quot;Add Event&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_events.xml"
+            line="122"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Welcome back!&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Welcome back!&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_home.xml"
+            line="21"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Quick Actions&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Quick Actions&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_home.xml"
+            line="33"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Recent Activities&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Recent Activities&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_home.xml"
+            line="60"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Recommended for You&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Recommended for You&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_home.xml"
+            line="85"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;User Name&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;User Name&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="71"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;user@example.com&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;user@example.com&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="84"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Height&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;Height&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="151"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;175 cm&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;175 cm&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="160"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Weight&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;Weight&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="169"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;68 kg&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;68 kg&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="178"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Sizes&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;Sizes&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="186"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;M / 32 / 9&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;M / 32 / 9&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="194"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Casual&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;Casual&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="247"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Elegant&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;Elegant&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="253"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Sporty&quot;, should use `@string` resource"
+        errorLine1="                                android:text=&quot;Sporty&quot;"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_profile.xml"
+            line="259"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Your Perfect Style&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Your Perfect Style&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_style.xml"
+            line="81"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Based on your preferences and wardrobe&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Based on your preferences and wardrobe&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_style.xml"
+            line="91"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Your Color Palette&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Your Color Palette&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_style.xml"
+            line="157"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;These colors complement your complexion and wardrobe.&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;These colors complement your complexion and wardrobe.&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_style.xml"
+            line="184"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Describe your style...&quot;, should use `@string` resource"
+        errorLine1="                        android:hint=&quot;Describe your style...&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_style.xml"
+            line="230"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Virtual Try-On&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Virtual Try-On&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_try_on.xml"
+            line="26"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Create your avatar or try on clothes&quot;, should use `@string` resource"
+        errorLine1="                        android:text=&quot;Create your avatar or try on clothes&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_try_on.xml"
+            line="75"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Create Avatar&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Create Avatar&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_try_on.xml"
+            line="103"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Try On Now&quot;, should use `@string` resource"
+        errorLine1="                    android:text=&quot;Try On Now&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_try_on.xml"
+            line="115"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Recent Try-Ons&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Recent Try-Ons&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_try_on.xml"
+            line="128"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Saved Outfits&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;Saved Outfits&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_try_on.xml"
+            line="153"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;My Wardrobe&quot;, should use `@string` resource"
+        errorLine1="                android:text=&quot;My Wardrobe&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_wardrobe.xml"
+            line="26"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Add clothing item&quot;, should use `@string` resource"
+        errorLine1="        android:contentDescription=&quot;Add clothing item&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_wardrobe.xml"
+            line="54"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;No Items Found&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;No Items Found&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_wardrobe_category.xml"
+            line="39"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Add items to your wardrobe to see them here&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;Add items to your wardrobe to see them here&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_wardrobe_category.xml"
+            line="53"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;View Planned Outfit&quot;, should use `@string` resource"
+        errorLine1="            android:text=&quot;View Planned Outfit&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_event.xml"
+            line="91"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Change Outfit&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;Change Outfit&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_next_event.xml"
+            line="56"
+            column="9"/>
+    </issue>
+
+</issues>

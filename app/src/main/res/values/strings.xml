@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VTO Style</string>
+    
+    <!-- Navigation -->
+    <string name="nav_try_on">Try On</string>
+    <string name="nav_wardrobe">Wardrobe</string>
+    <string name="nav_style">Style</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Try On Module -->
+    <string name="try_on_heading">Virtual Try On</string>
+    <string name="try_on_camera_permission">Camera permission is required for virtual try-on</string>
+    <string name="try_on_full_body">Full Body</string>
+    <string name="try_on_face">Face</string>
+    <string name="try_on_upper_body">Upper Body</string>
+    <string name="try_on_lower_body">Lower Body</string>
+    <string name="try_on_accessories">Accessories</string>
+    <string name="try_on_select_items">Select Items</string>
+    <string name="try_on_take_photo">Take Photo</string>
+    <string name="try_on_save_look">Save Look</string>
+    
+    <!-- Wardrobe Module -->
+    <string name="wardrobe_heading">My Wardrobe</string>
+    <string name="wardrobe_clothes">Clothes</string>
+    <string name="wardrobe_accessories">Accessories</string>
+    <string name="wardrobe_makeup">Makeup</string>
+    <string name="wardrobe_add_item">Add Item</string>
+    <string name="wardrobe_create_outfit">Create Outfit</string>
+    <string name="wardrobe_favorites">Favorites</string>
+    <string name="wardrobe_recent">Recent</string>
+    <string name="wardrobe_all_items">All Items</string>
+    <string name="wardrobe_empty">Your wardrobe is empty</string>
+    <string name="wardrobe_add_first_item">Add your first item</string>
+    
+    <!-- Style Module -->
+    <string name="style_heading">Style Guide</string>
+    <string name="style_recommendations">Recommendations</string>
+    <string name="style_occasion">Occasion</string>
+    <string name="style_seasonal">Seasonal</string>
+    <string name="style_color_analysis">Color Analysis</string>
+    <string name="style_my_style">My Style</string>
+    <string name="style_generate">Generate Style</string>
+    <string name="style_customize">Customize</string>
+    
+    <!-- Profile Module -->
+    <string name="profile_heading">My Profile</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_measurements">My Measurements</string>
+    <string name="profile_preferences">Style Preferences</string>
+    <string name="profile_settings">Settings</string>
+    <string name="profile_help">Help &amp; Support</string>
+    <string name="profile_about">About</string>
+    <string name="profile_sign_out">Sign Out</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="loading">Loading...</string>
+    <string name="retry">Retry</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="success">Success</string>
+    
+    <!-- New strings for navigation menu -->
+    <string name="title_home">Home</string>
+    <string name="title_wardrobe">Wardrobe</string>
+    <string name="title_tryon">Try On</string>
+    <string name="title_events">Events</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_outfits">Outfits</string>
+    
+    <!-- Missing strings -->
+    <string name="wardrobe">Wardrobe</string>
+    <string name="try_on">Try On</string>
+    <string name="clothing_image_description">Clothing image</string>
+    <string name="processing_image">Processing image</string>
+    <string name="try_on_result">Try On Result</string>
+    <string name="try_on_result_image">Try on result image</string>
+    <string name="back">Back</string>
+    <string name="share">Share</string>
+</resources>

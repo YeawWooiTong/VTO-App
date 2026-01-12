@@ -1,0 +1,22 @@
+{
+    "scene": "Beauty",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality",
+                "smooth": "0 1"
+            },
+            "softlight": {
+                "strength": 0.6
+            },
+            "teeth_whitening": {
+                "strength": 0.3
+            },
+            "eyes_whitening": {
+                "strength": 0.2
+            }
+        }
+    ]
+}

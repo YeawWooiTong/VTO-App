@@ -1,0 +1,18 @@
+{
+    "scene": "Lip Liner",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality"
+            },
+            "makeup_lipsliner": {
+                "color": "0.99 0.0 0.0",
+                "finish": "shimmer",
+                "coverage": "high",
+                "liner": "3 5"
+            }
+        }
+    ]
+}

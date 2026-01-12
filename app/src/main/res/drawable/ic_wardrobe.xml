@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Wardrobe body outline -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:fillAlpha="0"
+        android:pathData="M5,4h14a1,1 0 0 1 1,1v14a1,1 0 0 1 -1,1h-14a1,1 0 0 1 -1,-1v-14a1,1 0 0 1 1,-1z" />
+
+    <!-- Divider (middle line between doors) -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="1.5"
+        android:pathData="M12,4v16" />
+
+    <!-- Bigger Left handle -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M8.5,11a1,1 0 1,0 0,2 1,1 0 1,0 0,-2" />
+
+    <!-- Bigger Right handle -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M15.5,11a1,1 0 1,0 0,2 1,1 0 1,0 0,-2" />
+</vector>
+

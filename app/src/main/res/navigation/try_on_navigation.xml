@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/try_on_navigation"
+    app:startDestination="@id/navigation_tryon">
+
+    <fragment
+        android:id="@+id/navigation_tryon"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.tryon.TryOnFragment"
+        android:label="Try On"
+        tools:layout="@layout/fragment_try_on_placeholder">
+        <action
+            android:id="@+id/action_navigation_tryon_to_virtualTryOnFragment"
+            app:destination="@id/virtualTryOnFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/virtualTryOnFragment"
+        android:name="com.TOTOMOFYP.VTOAPP.ui.tryon.VirtualTryOnFragment"
+        android:label="Virtual Try On">
+    </fragment>
+
+</navigation> 

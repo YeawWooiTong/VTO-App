@@ -1,0 +1,15 @@
+{
+    "scene": "Teeth Whitening",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality"
+            },
+            "teeth_whitening": {
+                "strength": 0.3
+            }
+        }
+    ]
+}

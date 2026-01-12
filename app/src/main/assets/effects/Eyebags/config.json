@@ -1,0 +1,15 @@
+{
+    "scene": "Eyebags Removal",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality"
+            },
+            "makeup_eyebags": {
+                "alpha": 0.8
+            }
+        }
+    ]
+}

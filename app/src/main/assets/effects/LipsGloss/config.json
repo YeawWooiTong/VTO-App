@@ -1,0 +1,16 @@
+{
+    "scene": "Lips Gloss",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "lips_gloss": {
+                "threshold": 0.96,
+                "contour": 0.45,
+                "weakness": 0.5,
+                "multiplier": 1.5,
+                "alpha": 0.8
+            }
+        }
+    ]
+}

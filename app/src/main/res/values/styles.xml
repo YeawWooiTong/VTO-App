@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- No space in AppBar -->
+        <item name="appBarLayoutStyle">@style/Widget.App.AppBarLayout</item>
+    </style>
+
+    <!-- Custom AppBarLayout style to remove extra space -->
+    <style name="Widget.App.AppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.Primary">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="elevation">0dp</item>
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- Toolbar style with consistent spacing -->
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="titleTextAppearance">@style/TextAppearance.App.TitleLarge</item>
+    </style>
+
+    <!-- Title text style -->
+    <style name="TextAppearance.App.TitleLarge" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Style for perfectly circular FAB -->
+    <style name="ShapeAppearanceOverlay.CircularFAB" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources> 

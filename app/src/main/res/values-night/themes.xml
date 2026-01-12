@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark application theme -->
+    <style name="Theme.VTO" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_light</item>
+        <item name="colorOnSecondary">@color/text_on_accent</item>
+        
+        <!-- Status bar and navigation bar for edge-to-edge design -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        
+        <!-- Widget customization -->
+        <item name="materialCardViewStyle">@style/Widget.VTO.CardView</item>
+        <item name="materialButtonStyle">@style/Widget.VTO.Button</item>
+        <item name="bottomNavigationStyle">@style/Widget.VTO.BottomNavigation</item>
+    </style>
+</resources> 

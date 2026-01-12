@@ -1,0 +1,17 @@
+{
+    "scene": "Natural Blush",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality"
+            },
+            "makeup_blush": {
+                "color": "0.88 0.65 0.75",
+                "finish": "shimmer",
+                "coverage": "mid"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "scene": "Soft Light",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality"
+            },
+            "softlight": {
+                "strength": 0.6
+            }
+        }
+    ]
+}

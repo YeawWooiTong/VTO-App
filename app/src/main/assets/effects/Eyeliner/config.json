@@ -1,0 +1,17 @@
+{
+    "scene": "Eyeliner",
+    "version": "2.0.0",
+    "camera": {},
+    "faces": [
+        {
+            "makeup_base": {
+                "mode": "quality"
+            },
+            "makeup_eyeliner": {
+                "color": "0.0 0.0 0.0",
+                "finish": "metallic",
+                "coverage": "high"
+            }
+        }
+    ]
+}
